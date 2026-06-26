@@ -1,16 +1,26 @@
-# thrift_corner
+# Thrift Corner 🛍️
 
-A new Flutter project.
+A Flutter e-commerce app built with Firebase and BLoC state management.
 
-## Getting Started
+## Features
+- Email & Google Sign In
+- Product browsing by category
+- Cart & Wishlist with badges
+- Coupon codes
+- Checkout with order confirmation
+- User profile management
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Firebase Auth & Firestore
+- BLoC
+- Google Sign In
+- Local Storage
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
+1. Clone the repo
+2. Run `flutter pub get`
+3. Add your `google-services.json` to `android/app/`
+4. Run `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
