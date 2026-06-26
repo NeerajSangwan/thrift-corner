@@ -55,13 +55,18 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> fetchProducts() async {
-    final response = await productService.getProducts();
-
-    setState(() {
-      products = response.data['products'];
-      filteredProducts = List.from(products);
-      isLoading = false;
-    });
+    try {
+      final response = await productService.getProducts();
+      setState(() {
+        products = response.data['products'];
+        filteredProducts = List.from(products);
+        isLoading = false;
+      });
+    } catch (e) {
+      setState(() {
+        isLoading = false;
+      });
+    }
   }
 
   Future<void> loadData() async {
