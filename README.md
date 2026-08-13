@@ -1,6 +1,6 @@
 # Thrift Corner 🛍️
 
-A Flutter e-commerce app built with Firebase and BLoC state management
+A Flutter e-commerce app built with Firebase and BLoC state management.
 
 ## Features
 - Email & Google Sign In
